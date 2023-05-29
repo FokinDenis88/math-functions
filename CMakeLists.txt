@@ -22,6 +22,7 @@ set(DOC_FILTER
     doc/copy-past-helper.txt
     )
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # Add source to this project's executable.
 add_executable(math-functions ${SOURCES} ${HEADER_FILES_FILTER} ${DOC_FILTER})
